@@ -1,6 +1,9 @@
 # nesy-cyber-guardrail-poc
 A Neuro-Symbolic AI framework for logic-guided autonomous remediation against agentic ransomware (R-GCN + Knowledge Graphs).
 
+> **A Prototype Architecture for Logic-Guided Autonomous Remediation Against Agentic Ransomware.**
+This repository implements a lightweight Proof-of-Concept (PoC) demonstrating how **Relational Graph Convolutional Networks (R-GCN)** and **Formal Knowledge Graphs (RDF/OWL)** integrate to detect and safely contain adaptive cyber threats (such as JADEPUFFER) without causing self-inflicted outages.
+
 [![Substack](https://img.shields.io/badge/Substack-Lack%20of%20Intent-orange?logo=substack)](https://lackofintent.substack.com)
 
 ---
