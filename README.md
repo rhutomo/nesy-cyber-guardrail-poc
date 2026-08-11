@@ -12,6 +12,23 @@ This repository forms the experimental foundation for articles published on **La
 * **Issue #2:** [Bridging Graph Neural Networks and Knowledge Graphs in Autonomous Defense](https://lackofintent.substack.com/p/bridging-graph-neural-networks-and?r=8tos38&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 * **Issue #3:** [Case Study: How JADEPUFFER Ransomware Exposes Probabilistic SOCs](https://lackofintent.substack.com/p/jadepuffer-agentic-ransomware-neuro-symbolic-defense?r=8tos38&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
+---
+## 🚀 PoC Execution Output
+
+```text
+=== [1] Initializing Heterogeneous Graph Telemetry ===
+=== [2] Running R-GCN Neural Perception Layer ===
+-> Node 1 (Python3_Payload) Calculated Risk Score: 0.5683
+
+=== [3] Translating Neural Vector to RDF Triplet ===
+=== [4] Evaluating First-Order Logic Guardrails ===
+
+[DECISION]: PERMITTED_WITH_GUARDRAIL
+[EXECUTED ACTION]: SIGSTOP_PROCESS_PID
+[BLOCKED ACTION]: ISOLATE_HOST_NODE
+[REASONING]: Target 'Nacos_Config_DB' is Critical. Node isolation blocked to prevent self-inflicted DoS.
+```
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python: 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch Geometric](https://img.shields.io/badge/PyTorch-Geometric-orange.svg)](https://pytorch-geometric.readthedocs.io/)
